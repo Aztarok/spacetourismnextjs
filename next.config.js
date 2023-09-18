@@ -3,8 +3,9 @@
  */
 const nextConfig = {
 	output: "export",
-	experimental: {
-		images: true,
+	basePath: "/spacetourismnextjs",
+	images: {
+		unoptimized: true,
 	},
 };
 
