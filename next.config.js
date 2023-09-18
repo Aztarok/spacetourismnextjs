@@ -1,9 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-	output: "export",
-	images: {
-		domains: ["aztarok.github.io/spacetourismnextjs"],
-	},
-};
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {};
 
 module.exports = nextConfig;
