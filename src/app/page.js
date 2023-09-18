@@ -1,4 +1,5 @@
 import ColoredLine from "@/components/ColoredLine";
+import { barlowbold, barlowreg } from "./fonts";
 
 export default function Home(font) {
 	return (
@@ -19,11 +20,23 @@ export default function Home(font) {
 						/>
 					</div>
 
-					<div className="flex bg-blue-800 mt-[2rem] justify-center aboslute items-center gap-[3rem] px-[14rem]">
-						<span className="py-[2rem]">00 HOME</span>
-						<span>01 DESTINATION</span>
-						<span>02 CREW</span>
-						<span>03 TECHNOLOGY</span>
+					<div className="flex bg-blue-800 mt-[2rem] justify-center aboslute items-center gap-[3rem] px-[14rem] text-[1.5rem]">
+						<span className={`py-[2rem] ${barlowreg.className}`}>
+							<span className={barlowbold.className}>00</span>{" "}
+							HOME
+						</span>
+						<span className={`py-[2rem] ${barlowreg.className}`}>
+							<span className={barlowbold.className}>01</span>{" "}
+							DESTINATION
+						</span>
+						<span className={`py-[2rem] ${barlowreg.className}`}>
+							<span className={barlowbold.className}>02</span>{" "}
+							CREW
+						</span>
+						<span className={`py-[2rem] ${barlowreg.className}`}>
+							<span className={barlowbold.className}>03</span>{" "}
+							TECHNOLOGY
+						</span>
 					</div>
 				</div>
 				<ColoredLine />
